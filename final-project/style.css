@@ -1,0 +1,68 @@
+/* Link your stylesheet to your HTML file.
+
+Find at least one google font that you like and add the provided stylesheet link in the head of your document. Use the font/s throughout the document as you like.
+
+Give the body the background color of your choice.
+
+Center the heading by its class of title, using the appropriate selector in CSS.
+
+Give the createOrder, form, and order divs each a unique border of its own. Use the appropriate method for targeting an id or class in CSS.
+
+set each divs width to 800 pixels
+center the each div on the page
+In the form:
+
+Choose Your Crust: and Choose Your Sauce: labels should be displayed on the same line as their inputs
+Topping 1:, Topping 2: and Topping 3: labels and inputs should all be displayed inline on the same line
+Organize the order div like in the example below. */
+
+body {
+    font-family: 'Roboto Slab', serif;
+ background-color: red;
+}
+
+header {
+    text-align: center;
+}
+.createOrder {
+    border-style: solid;
+    border-radius: 10px;
+    width: 800px;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+}
+
+.form {
+    border-style: solid;
+    border-radius: 10px;
+    width: 800px;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+ 
+}
+
+#order {
+    border-style: solid;
+    border-radius: 10px;
+    width: 800px;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+}
+#song {
+    margin: auto;
+    width: 800px;
+    text-align: center;
+
+}
+#h1 {
+    text-align: center;
+}
+#topping1, #topping2, #topping3 {
+    display: inline;
+}
+#crust, #sauce {
+    margin: 5px;
+}
